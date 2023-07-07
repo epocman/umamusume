@@ -21,6 +21,7 @@ a{
     padding-left:40px;
     padding-right:40px;
     display:flex;
+    justify-content: space-between;/*header-menuを右寄せにする*/
     align-items:flex-end;
 }
 
