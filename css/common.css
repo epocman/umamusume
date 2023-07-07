@@ -49,6 +49,19 @@ a{
     margin-right:20px;
 }
 
+table {
+    border-collapse: separate; /* セルの境界線の間隔を開けて表示する */
+    border-spacing: 2; /* 隣接するセルのボーダー間の間隔を指定する */
+    width: 100%; /* テーブルの横幅を指定する */
+    border:1px solid #31A9EE; /* テーブルの境界線を実線で指定する */
+}
+table th, table td {
+    text-align: center; /* セル内のテキストの位置を指定（真ん中）する */
+    padding: 10px; /* 要素の余白を指定する(上下左右) */
+    border: 1px solid #666 ;/* 境界線を実線で指定する */
+    white-space: nowrap; /* テキストの折り返しをしない */
+}
+
 .footer{
     color:black;
     background-color:#32CD32;
