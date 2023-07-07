@@ -80,3 +80,40 @@ table th, table td {
 .footer .footer-logo img{
     max-width:20%;
 }
+
+/*表に色を付ける(はじめ)*/
+
+.waku1{
+    background-color:#ffffff;
+}
+
+.waku2{
+    background-color:#000000;
+    color:#ffffff;
+}
+
+.waku3{
+    background-color:#B22222;
+}
+
+.waku4{
+    background-color:#0000CD;
+}
+
+.waku5{
+    background-color:#FFFF00;
+}
+
+.waku6{
+    background-color:#008000;
+}
+
+.waku7{
+    background-color:#FF8C00;
+}
+
+.waku8{
+    background-color:#EE82EE;
+}
+
+/*表に色を付ける(おわり)*/
