@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+ul,ol{
+    list-style:none;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+.header{
+    background-color:#32CD32
+}
+
+.header-inner{
+    max-width:100%;
+    height:150px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:40px;
+    padding-right:40px;
+    display:flex;
+    justify-content: space-between;/*header-menuを右寄せにする*/
+    align-items:flex-end;
+}
+
+.header-inner .header-logo img{
+    max-width:100%;
+}
+
+.header-logo{
+    text-align:center;
+}
+
+.toggle-menu-button{
+    display:none;
+}
+
+.header-logo{
+    display:block;
+    width:200px;
+}
+
+.site-menu ul{
+    display:flex;
+}
+.site-menu ul li{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.footer{
+    color:black;
+    background-color:#32CD32;
+    padding-top:30px;
+    padding-bottom:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.footer-logo{
+    display:block;
+    text-align:center;
+}
+
+.footer .footer-logo img{
+    max-width:20%;
+}
+
+.course-image,.course-map .map-link{
+    text-align:center;
+}
