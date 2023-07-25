@@ -23,23 +23,54 @@ a{
     display:flex;
     justify-content: space-between;/*header-menuを右寄せにする*/
     align-items:flex-end;
-}
-
-.header-inner .header-logo img{
-    max-width:380%;
+    position: relative;
 }
 
 .header-logo{
-    text-align:center;
+    display: flex;
+    width: auto;
+}
+
+.header-logo img{
+    width: 100%;
+    position: absolute;
+    padding-top: 10px;
+    top: 50%;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    transform: translateY(-50%);
 }
 
 .toggle-menu-button{
     display:none;
 }
 
-.header-logo{
-    display:block;
-    width:200px;
+@media (max-width: 800px) {
+    .toggle-menu-button{
+        display: block;
+        position: relative;
+        height: 34px;
+        width: 50px;
+        background-image: url(../images/common/icon-menu.png);
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .header-site-menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: #692927;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+    }
+    .header-site-menu.is-show{
+        display: block;
+    }
 }
 
 .site-menu ul{
