@@ -23,6 +23,16 @@ a{
     display:flex;
     justify-content: space-between;/*header-menuを右寄せにする*/
     align-items:flex-end;
+    position: relative;
+}
+
+.header-site-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .header-inner .header-logo img{
@@ -34,7 +44,8 @@ a{
 }
 
 .toggle-menu-button{
-    display:none;
+    display: block;
+    height: 34px;
 }
 
 .header-logo{
