@@ -33,6 +33,11 @@ a{
     right: 0;
     padding-top: 30px;
     padding-bottom: 50px;
+    display: none;
+}
+
+.header-site-menu.is-show{
+    display: block;
 }
 
 .header-inner .header-logo img{
@@ -46,6 +51,10 @@ a{
 .toggle-menu-button{
     display: block;
     height: 34px;
+    background-image: url(../images/common/icon-menu.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header-logo{
